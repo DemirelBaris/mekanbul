@@ -11,6 +11,8 @@
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
+    "npm": "^8.19.2",
+    "npm-mod-start": "^1.1.2",
     "pug": "2.0.0-beta11"
   }
 }
