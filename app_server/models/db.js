@@ -8,7 +8,7 @@ function kapat(msg,callback){
     });
 
 }
-process.on("SIGNT",function(){
+process.on("SIGINT",function(){
     kapat("Uygulama kapatıldı",function(){
         process.exit(0)
     });
