@@ -12,6 +12,8 @@
     "http-errors": "~1.6.3",
     "mongoose": "^6.7.2",
     "morgan": "~1.9.1",
+    "npm": "^8.19.2",
+    "npm-mod-start": "^1.1.2",
     "pug": "2.0.0-beta11"
   }
 }
