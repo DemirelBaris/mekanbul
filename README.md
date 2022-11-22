@@ -6,5 +6,5 @@
 2. [Mekanın ID İle Mekan Bilgileri Getir](https://replit.com/@BarisDmrel/mekanbul-1#Resimler/MekanGetir.png)
 ![Mekanın ID İle Mekan Bilgileri Getir](./Resimler/MekanGetir.png)
 
-3. [Bir Mekena Ait Belli Yorumları Getir](https://replit.com/@BarisDmrel/mekanbul-1#Resimler/yorumgetir.png)
+3. [Bir Mekena Ait Belli Yorumları Getir](https://replit.com/@BarisDmrel/mekanbul-1#Resimler/Yorumgetir.png)
 ![Bir Mekena Ait Belli Yorumları Getir](./Resimler/YorumGetir.png)
