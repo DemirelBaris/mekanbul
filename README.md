@@ -2,7 +2,7 @@
 
 
 ### 1. Collection : MekanBul API Testleri
-![1](/Resimler/collectiontest.png)
+![1](/Resimler/Collectiontest.png)
 
 ### 2. API Testleri
 ![2](/Resimler/apitest.png)
