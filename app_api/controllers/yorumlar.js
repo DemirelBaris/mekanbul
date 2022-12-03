@@ -4,19 +4,19 @@ const cevapOlustur = function (res, status, content) {
     res.status(status).json(content);
 };
 
-var sonPuanHesapla=function(gelenMekan){
-    var i,yorumSayisi,ortalamaPuan,toplamPuan;
-    if(gelenMekan.yorumlar && gelenMekan.yorumlar.length>0){
-        yorumSayisi=gelenMekan.yorumlar.length;
-        toplamPuan=0;
-        for(i=0;i<yorumSayisi;i++){
-            toplamPuan=toplamPuan+gelenMekan.yorumlar[i].puan;
+var sonPuanHesapla = function (gelenMekan) {
+    var i, yorumSayisi, ortalamaPuan, toplamPuan;
+    if (gelenMekan.yorumlar && gelenMekan.yorumlar.length > 0) {
+        yorumSayisi = gelenMekan.yorumlar.length;
+        toplamPuan = 0;
+        for (i = 0; i < yorumSayisi; i++) {
+            toplamPuan = toplamPuan + gelenMekan.yorumlar[i].puan;
         }
-        ortalamaPuan=parseInt(toplamPuan/yorumSayisi,10);
-        gelenMekan.puan=ortalamaPuan;
-        gelenMekan.save(function(hata){
-            if(hata)
-            console.log(hata);
+        ortalamaPuan = parseInt(toplamPuan / yorumSayisi, 10);
+        gelenMekan.puan = ortalamaPuan;
+        gelenMekan.save(function (hata) {
+            if (hata)
+                console.log(hata);
         });
     }
 };
