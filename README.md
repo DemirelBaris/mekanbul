@@ -1,5 +1,5 @@
 [Yakındaki Mekanları Listele - Replit Linki](https://mekanbul-1.barisdmrel.repl.co/?enlem=37&boylam=35)
-![1](/images/replit.png)
+![1](/Resimler/replit.png)
 # MekanBul REST API
 
 # MekanBul REST API TESTLERİ
